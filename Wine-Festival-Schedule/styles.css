@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(20, 20, 50);
+}
+
+header {
+    color: goldenrod;
+    background-color: white;
+    max-width: 100%;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    color:white;
+}
+
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 20px;
+    font-size: 30px;
+    background-color: white;
+    color: goldenrod;
+}
+
+.left{
+    text-align: left;
+}
+
+td {
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    border-style: solid;
+    border-color: goldenrod;
+    border-width: 2px;
+}

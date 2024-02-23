@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form a Story</title>
+</head>
+<body>
+    <header>
+        <img src="formAStoryLogo.svg" alt="logo" width="500" height="300">
+    </header>
+    <section id="story">
+        <h2>Complete the Form -<br>Complete the Story!</h2>
+        <hr>
+        <form method="post"></form>
+            <label for="animal">Animal:</label> 
+            <input type="text" id="'animal" name="animal" required> <br>
+
+            <label for="animal2">Another Animal:</label>
+            <input type="text" id="animal2" name="animal2" required> <br>
+
+            <label for="animal3">One More Animal:</label>
+            <input type="text" id="animal3" name="animal3" required> <br>
+
+            <label for="adjective">Adjective (past tense):</label>
+            <input type="text" id="adjective" name="adjective" required> <br>
+
+            <label for="verb">Verb (ends in -ing):</label>
+            <input type="text" id="verb" name="verb" required> <br>
+
+            <label for="number">Number:</label>
+            <input type="number" id="number" name="id" required> <br>
+
+            <section class="choice">
+
+                <label for="yesOrNo">Yes or No:</label>
+
+                <input type="radio" id="yes" name="yesOrNo">
+                <label for="yes">Yes</label>
+
+                <input type="radio" id="no" name="yesOrNo">
+                <label for="no">No</label>
+            </section>
+
+            <hr>
+
+            <label for="speed">Relative speed (ends in -er):</label>
+            <select name="speed" id="speed">
+                <option value="slower" id="slower">Slower</option>
+                <option value="faster" id="faster">Faster</option>
+            </select> <br>
+
+            <label for="quoteInput">Motivational Quote:</label>
+            <input list="quote" name="quoteInput" id="quoteInput">
+            <datalist id="quote">
+                <option value="Option 1">Winner gets ice cream!</option>
+                <option value="Option 2">The secret of getting ahead is getting started.</option>
+                <option value="Option 3">It's hard to beat a person who never gives up.</option>
+            </datalist>
+
+            <label for="message">Meanigfull Message:</label>
+            <textarea name="message" id="message" cols="30" rows="3"></textarea> <br>
+
+            <input type="button" value="Form a Story!">
+
+        </form>
+
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url("mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: cadetblue;
+    text-align: center;
+    height: 450px;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+img {
+    margin: 40px;
+}
+
+.intro {
+    margin: 39px;
+    font-size: 25px;
+    color:bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div {
+    margin-top: 25px;
+}
+
+footer {
+    margin-top: 25px;
+}
+
+.projects {
+    margin-top: 25px;
+}
